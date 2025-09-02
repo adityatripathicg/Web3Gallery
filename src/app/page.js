@@ -386,7 +386,7 @@ export default function Home() {
           <div className="gallery-callout-col">
             <div className="gallery-callout-row">
               <div className="gallery-callout-img gallery-callout-img-1">
-                <img src="https://images.unsplash.com/photo-1640826844801-4c7bc8756e8e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2864&q=80" alt="" />
+                <img src="https://images.unsplash.com/photo-1620121692029-d088224ddc74?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG1ldGF2ZXJzZXxlbnwwfHwwfHx8MA%3D%3D" alt="" />
               </div>
               <div className="gallery-callout-img gallery-callout-img-2">
                 <img src="https://images.unsplash.com/photo-1518186285589-2f7649de83e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2832&q=80" alt="" />

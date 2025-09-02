@@ -177,3 +177,55 @@
     text-align: left;
   }
 }
+/* Hover animations + polish */
+.footer .footer-meta .footer-nav-links a {
+  text-decoration: none;
+  color: var(--base-300);
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.footer .footer-meta .footer-nav-links a:hover h3 {
+  color: var(--base-100);
+  transform: translateX(6px);
+}
+
+.footer .footer-socials-wrapper .icon {
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--base-400);
+  border-radius: 10rem;
+  font-size: 1.25rem;
+  color: var(--base-300);
+  background: transparent;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.footer .footer-socials-wrapper .icon:hover {
+  background: var(--base-100);
+  color: var(--base-900);
+  border-color: var(--base-100);
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.footer-copyright p {
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.footer-copyright p:hover {
+  color: var(--base-100);
+}
+
+.footer-copyright p span {
+  color: var(--base-100);
+  transition: color 0.3s ease;
+}
+
+.footer-copyright p span:hover {
+  color: var(--base-200);
+}
